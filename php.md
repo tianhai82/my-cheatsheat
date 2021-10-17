@@ -82,11 +82,3 @@ echo $bar; // "baz"
 $completed = true;
 gettype($completed); // boolean
 ```
-
-
-
-
-2. SQL Queries
-
-
-3. Redis Queries
