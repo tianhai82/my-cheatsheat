@@ -17,3 +17,5 @@ go build -gcflags "-m -m"
 https://www.programmerall.com/article/46901728740/
 
 https://github.com/DataDog/go-profiler-notes/blob/main/guide/README.md
+
+https://golang.design/research/zero-alloc-call-sched/
