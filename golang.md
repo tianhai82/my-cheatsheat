@@ -12,6 +12,7 @@ web // look at call graph
 list algoOne
 
 go build -gcflags "-m -m"
+go build -gcflags "-m -l"
 
 
 https://www.programmerall.com/article/46901728740/
@@ -19,3 +20,8 @@ https://www.programmerall.com/article/46901728740/
 https://github.com/DataDog/go-profiler-notes/blob/main/guide/README.md
 
 https://golang.design/research/zero-alloc-call-sched/
+
+## General Guideline on methods
+- try not to return pointers
+- Remove pointers within pointers
+- when defining struct, define fields using less memory on top first
